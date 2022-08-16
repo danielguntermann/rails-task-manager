@@ -1,0 +1,7 @@
+<p>All tasks</p>
+<ol>
+  <% @tasks.each do |task| %>
+  <li><%= task.title %></li>
+  <% end %>
+</ol>
+  <%= link_to "Show all tasks", @task %>
